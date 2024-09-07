@@ -1,0 +1,25 @@
+localhost:1000/users    post
+    {
+        "firstName": "hamsa",
+        "lastName": "Johnson",
+        "email": "alice.johnson@example.com",
+        "resRoom": 255,
+        "wallet": 5000
+    }
+localhost:1000/users  put
+    {
+        "id": 13,
+        "firstName": "hamsa",
+        "lastName": "Johnson",
+        "email": "hamsa.johnson@example.com",
+        "resRoom": 255,
+        "wallet": 5000
+    }
+
+localhost:1000/users/{5}   delete
+
+localhost:1000/users/{5}    Get  bY id
+
+
+
+localhost:1000/users  GET
